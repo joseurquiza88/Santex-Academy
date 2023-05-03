@@ -54,7 +54,7 @@ del objeto dado..*/
 actualice el montoTotal */
 
 
-class carrito {
+class Carrito {
     productos = [];
     montoTotal = 0;
     
@@ -77,7 +77,7 @@ class carrito {
 
 // Pruebas de funcion carrito
 //Creamos el carrito
-let nuevoCarrito1  = new carrito("leche",100);
+let nuevoCarrito1  = new Carrito("leche",100);
 let montoAcumulado = nuevoCarrito1.montoTotal;
 console.log(nuevoCarrito1)
 console.log(montoAcumulado)
